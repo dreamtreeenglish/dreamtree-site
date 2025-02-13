@@ -1,0 +1,165 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{ 
+  background-color: gold;
+  font-family: "Brush Script MT", cursive;
+  min-width: 400px;
+}
+
+/*body for small screens*/
+@media (max-width:450px) {
+  body {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+/*nav bar and hero image*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70%;
+  width: 100%;
+  margin: 0% auto;
+}
+
+/*header for small screens*/
+@media (max-width:550px) {
+  .header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 10px;
+  }
+}
+
+/*Dream Tree logo*/
+#dt-logo {
+  width: 100px;
+  height: 100px;
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+}
+
+.menu-items {
+  display: inline-flex;
+  font-size: 17px;
+  padding: 5px;
+  scroll-behavior: smooth;
+}
+
+/*Main body without nav bar*/
+.main-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  width: 100%;
+  margin: 0% auto;
+}
+
+@media (max-width:1390px) {
+  .classes, .contact {
+    display:flex;
+    flex-wrap: wrap;
+  }
+}
+
+.section {
+  color: blue;
+  /*background-color: yellow;*/
+}
+
+/*class photos*/
+.class-photos {
+  width: 300px;
+  height: 225px;
+  padding-right: 20px;
+}
+
+/*dream high publishing*/
+.dream-high {
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+  
+.dream-high {
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width:700px) {
+  .dream-high {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+#handwriting-book {
+  width: 175px;
+  height: 250px;
+  padding: 10px;
+}
+
+/*class section*/
+.classes {
+  display:flex;
+  margin-bottom: 10px;
+}
+
+/*contact section*/
+
+#contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#address {
+  padding-right: 50px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  color: white;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+/*Teacher's Section*/
+
+#staff-body {
+  background-color: gold;
+}
+
+.teacher-profiles {
+display: flex;
+flex-direction: column;
+}
+
+.profile {
+  padding-bottom: 25px;
+}
+
+.profile-photo {
+  width: 300px;
+  height: 225px;
+  padding-right: 20px;
+}
+
